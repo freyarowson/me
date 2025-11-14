@@ -162,6 +162,42 @@ a:focus, a:hover {
   background-size: auto;
 }
 
+.content-section h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+  letter-spacing: 0.1em;
+}
+
+.intro-bullet {
+  list-style: none;
+  padding-left: 0;
+  margin: 0 auto 3rem auto;
+  padding-left: 20%;
+  padding-right: 20%;
+  max-width: 100%;
+  text-align: center;
+}
+
+.intro-bullet li {
+  position: relative;
+  padding-left: 0;
+  margin-bottom: 2.5rem;
+  font-size: 1.3rem;
+  line-height: 1.8;
+}
+
+.intro-bullet li::before {
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: inherit;
+  margin-right: 0.5rem;
+}
+
+.banner-social-buttons {
+  margin-top: 3rem;
+}
+
 /* .project1-section {
   padding-top: 150px;
   padding-bottom: 150px;
