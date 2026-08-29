@@ -44,7 +44,7 @@ html(lang='en')
                         li.nav-item
                             a.nav-link(href='#about') About
                         li.nav-item
-                            a.nav-link(href='#projects') Projects
+                            a.nav-link(href='#case-studies') Projects
                         li.nav-item
                             a.nav-link(href='#contact') Contact
 
@@ -54,8 +54,10 @@ html(lang='en')
                 .d-flex.justify-content-center
                     .text-center
                         h1.mx-auto.my-0.text-uppercase Freya Rowson
-                        h2.text-white-50.mx-auto.mt-2.mb-5 Insights, Brand Strategy & Behaviour Change consultant.
-                        a.btn.btn-primary(href='#about') About me
+                        h2.text-white-50.mx-auto.mt-2.mb-3 Insights, Strategy & Behaviour Change consultant.
+                        img.rounded-circle.mb-4(src='assets/img/me.jpg', alt='Freya Rowson', style='width: 120px; height: 120px; object-fit: cover;')
+                        div
+                            a.btn.btn-primary(href='#about') About me
 
         // About
         section#about.about-section.text-center
@@ -64,28 +66,88 @@ html(lang='en')
                     .col-lg-8
                         h2.text-white.mb-5 About me
                         p.text-white-50.mb-5
-                            | I am a 
-                            strong.highlight qualitative researcher with over a decade of experience 
-                            | bridging the gap between complex human behaviour and organisational strategy. My work is powered by Behavioural Science, ensuring deep, rich insights translate into clear recommendations.
+                            | I am an 
+                            b.highlight insight, strategy and behaviour change consultant with 11 years' experience
+                            |  helping organisations make sense of complex human behaviour and turn it into clear strategic direction. Grounded in applied behavioural science, my work focuses on driving positive social impact across health, education, sustainability and sport.
                         p.text-white-50.mb-5
-                            | A personal and professional goal of mine it to support everyone - especially women and girls - to
-                            strong.highlight  find their place in sport
-                            |  and build a healthy relationship with physical activity from a young age.
+                            b.highlight Sport is both a professional and personal passion area
+                            | . It has become an increasing focus of my work, with experience developing programmes, environments and communications that support participation and engagement. Outside of work, I'm a former professional athlete, keen runner and Level 1 netball coach, and I'm passionate about helping people, especially women and girls, find their place in sport and build a positive relationship with physical activity from a young age.
                         p.text-white-50.mb-5
                             | ---
                         h2.text-white.mb-5 My experience
                         p.text-white-50.mb-5
-                            | I’ve worked across
-                            strong.highlight  a range of public and private sector clients
-                            | , across a host of challenges - most notably behaviour change, brand strategy and comms development, audience understanding, customer experience and behavioural journey mapping. 
+                            | I draw on 
+                            b.highlight a range of approaches to generate impactful insight
+                            | , including expert and stakeholder interviews, literature and cultural reviews, and qualitative and mixed-method primary research. I bring strong qualitative expertise spanning methodologies, including depth interviews, focus groups, online communities, behavioural journey mapping, co-creation and intercepts, with a particular passion for ethnography (in-home and digital), driven by a belief that context is key to truly understanding behaviour. I also provide behavioural science consultancy, applying frameworks (COM-B, B=MAP, Context Model, Habit Loop) and principles to translate insight into action.
                         p.text-white-50.mb-5
-                            | I bring 
-                            strong.highlight  applied behavioural science expertise 
-                            |  across core frameworks (COM-B, B=MAP, context model) and a host of principles. I can support wider conversations through Bsci consultancy and workshops.
+                            b.highlight I've partnered with clients across public and private sectors to address a range of strategic challenges
+                            | , including behaviour change, brand strategy and communications development, audience understanding and segmentation, customer experience, programme evaluation and optimisation, and user-centred design. I work collaboratively as a strategic partner to deliver reports, facilitate workshops and co-create strategic direction.
                         p.text-white-50.mb-5
-                            | I have a wealth of experience across
-                            strong.highlight  qualitative methodologies 
-                            |  - IDIs, paired depths, groups, observation, intercepts, online platforms, behavioural journeys/diaries, ethnography - running projects from foundational review and hypothesis development, to delivery of debriefs, workshops and co-creation sessions. My experience spans UK and International work, quick turnaround and longitudinal studies, and moderating a range of audiences across sensitive topics.
+                            b.highlight My work spans UK and international research, engaging audiences from different backgrounds and life stages, and often navigating complex and sensitive topics
+                            | . The variety is what keeps it interesting, with no two days quite the same.
+                        p.text-white-50.mb-5
+                            | I offer end to end project delivery, as well as freelance support on specific elements of a project on behalf of agencies or end clients. I am known to seamlessly slot into teams with a collaborative, calm and organised approach.
+                        p.text-white-50.mb-5
+                            | ---
+                        h2.text-white.mb-5 Client feedback
+                        p.text-white-50.mb-4
+                            em
+                                | "Working with Freya was a 
+                                b.highlight seamless partnership
+                                | . Freya designed a bespoke research strategy that got straight to the heart of our objectives, delivering high-calibre insights that have fundamentally shaped our product roadmap. Freya's ability to craft a 
+                                b.highlight compelling narrative
+                                |  meant that stakeholder buy-in was immediate - a testament to the quality of her work."
+                        p.text-white-50.mb-5
+                            | Pru Shelton, Head of Research & Insight, Chartered Management Institute
+
+        // Case Studies
+        section#case-studies.projects-section.bg-light.pb-0
+            .container.px-4.px-lg-5
+                h2.text-black.mb-5 Case Studies
+                // Case Study One Row
+                .row.gx-0.mb-5.mb-lg-0.justify-content-center
+                    .col-lg-6
+                        img.img-fluid(src='assets/img/project_cocreation.jpg', alt='Co-creation and programme development')
+                    .col-lg-6
+                        .bg-customOrange.text-center.h-100.project
+                            .d-flex.h-100
+                                .project-text.w-100.my-auto.text-center.text-lg-left
+                                    h4.text-dark Co-creation and programme development
+                                    p.mb-0.text-dark-50
+                                        | To support students across the transition from education to the workplace.
+                // Case Study Two Row
+                .row.gx-0.justify-content-center
+                    .col-lg-6
+                        img.img-fluid(src='assets/img/project_language.jpg', alt='Monitoring, evaluation, and learning')
+                    .col-lg-6.order-lg-first
+                        .bg-customOrange.text-center.h-100.project
+                            .d-flex.h-100
+                                .project-text.w-100.my-auto.text-center.text-lg-right
+                                    h4.text-dark Monitoring, evaluation, and learning
+                                    p.mb-0.text-dark-50
+                                        | Of a school’s language immersion programme, working closely with pupils, teachers, Senior Leadership and Governors to shape the strategic next steps for the programme.
+                // Case Study Three Row
+                .row.gx-0.mb-5.mb-lg-0.justify-content-center
+                    .col-lg-6
+                        img.img-fluid(src='assets/img/project_vitamin.jpg', alt='Ethnography and behavioural consultancy')
+                    .col-lg-6
+                        .bg-customOrange.text-center.h-100.project
+                            .d-flex.h-100
+                                .project-text.w-100.my-auto.text-center.text-lg-left
+                                    h4.text-dark Ethnography and behavioural consultancy
+                                    p.mb-0.text-dark-50
+                                        | Working with a leading market research agency to support the creation of positive daily vitamin habits.
+                // Case Study Four Row
+                .row.gx-0.justify-content-center
+                    .col-lg-6
+                        img.img-fluid(src='assets/img/project_grassroot.jpg', alt='Behaviour change consultancy')
+                    .col-lg-6.order-lg-first
+                        .bg-customOrange.text-center.h-100.project
+                            .d-flex.h-100
+                                .project-text.w-100.my-auto.text-center.text-lg-right
+                                    h4.text-dark Behaviour change consultancy
+                                    p.mb-0.text-dark-50
+                                        | To identify behavioural thought starters to shape environments that support belonging for girls in grassroots sport.
 
         // Projects
         section#projects.projects-section.bg-light
